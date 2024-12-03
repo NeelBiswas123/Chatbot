@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XYZ Chatbot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div class="heading">
+    <h1>Welcome to XYZ Chatbot </h1>
+  </div>
+
+
+
+
+
+
+<!-- navbar using bootstrap -->
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+
+          
+          <img style=" width: 50px;height: 50px;" src="./images/navbar_icon-removedbg.png"   alt="navbar icon">
+        
+        </span>
+      </button>
+      
+      <!-- Change offcanvas-end to offcanvas-start to open from the left -->
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+ 
+
+
+
+
+
+<!-- search  -->
+
+  
+    <div class="container">
+      <div class="chat" id="chat"> </div>
+        <div class="search">
+          <div class="search-box">
+            <!-- <textarea name="message" id="input" cols="10" rows="1" placeholder="What's on your mind"></textarea> -->
+            <input type="text" id="input" placeholder="what's on your mind? " />
+          </div>
+        
+          <button id='send'class="send" onclick="sendMessage()">Send</button>
+          
+        </div>
+    </div>
+
+
+
+<!-- footer  -->
+  <div class="footer">
+    <footer>Copyright © 2024 XYZ Chatbot</footer>
+  </div>
+
+
+
+
+
+<!-- Dark Mode toggle  -->
+    <div class="darkmode">
+    
+      <div class="darkMode-Toggle">
+        <input type="checkbox" id="toggleDarkMode" class="toggle-checkbox">
+        <label for="toggleDarkMode" class="toggle-Label">
+          <i class="icon-light">☀️</i>
+          <i class="icon-dark">🌜</i>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</html>
