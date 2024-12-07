@@ -10,4 +10,4 @@ Questions:- 1. Hi or Hello
             6. what is chatgpt or tell me about chat gpt
             7. India or where is india
             8. tell me a joke
-            9. are you AI or are you AI model?
+            
