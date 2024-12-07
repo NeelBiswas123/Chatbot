@@ -2,6 +2,7 @@ Hi it's a chatbot website made it only using html , css and js .....(open it in 
 
 Note:- No AI model is used to fetch questions only selected questions are answered by the chat which was mentioned below and also on line 44-70 in script.js file
 Feel free to add questions and modify like you want
+
 Questions:- 1. Hi or Hello
             2. How are you
             3. what is your name
