@@ -65,9 +65,7 @@ input.addEventListener("keypress", function(event) {
      else if (input.includes("India" || "where is India")) {
       output = "India is a Country that is located in South Asia.";
     }
-      else if (input.includes("are you AI" || "are you ai model")) {
-      output = "No , I am not , I am just a program";
-    }
+     
     
      else if (input.includes("tell me a joke")) {
       output = "Tell me....Why did the chicken go to the seance?";
