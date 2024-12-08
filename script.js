@@ -56,11 +56,14 @@ input.addEventListener("keypress", function(event) {
      else if (input.includes("what can you do")) {
       output = "I can chat with you and answer your questions.";
     }
-     else if (input.includes("what is google" || "tell me about google")) {
+     else if (input.includes("what is google" || "tell me about google" || "google")) {
       output = "Google is an American search engine company ";
     }
      else if (input.includes("what is chatgpt" || "tell me about chatgpt")) {
       output = "ChatGPT is an AI that uses NLP to help Users to solve their problem ";
+    }
+    else if (input.includes("ai" || "are you ai" || " are you ai model")) {
+      output = "No, I am just a program , I can only answer some specific question , read the readme file for more ";
     }
      else if (input.includes("India" || "where is India")) {
       output = "India is a Country that is located in South Asia.";

@@ -197,7 +197,7 @@ body {
 
 
 
-/* search box      */
+/* search answers (black and grey area)     */
     .container {
         width: 600px;
         margin: 5px auto;
@@ -309,3 +309,107 @@ body {
         color: wheat;
 
     }
+
+
+
+
+
+
+/* media query for responsiveness to all devices(phones and tab) */
+
+@media (max-width:450px)  {
+
+
+
+  
+
+
+/* dark Mode  */
+    .darkmode {
+    position: fixed;
+    top: 2px;
+    right: 20px;
+    
+    }
+
+
+/* heading  */
+
+    .heading {
+        position: relative;
+        top: 80px;
+        
+       
+    }
+
+
+
+/* this is for the container (black box)*/
+    .container {
+        position: relative;
+        top: 100px;
+
+        width: 350px;
+        height: 480px;
+        margin: 1px auto;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: #64646f33 0px 7px 29px 0px;
+        background: #31363F;
+    }
+    .chat {
+        height: 380px;
+        overflow-y: scroll;
+        margin: 20px 0;
+        padding: 10px;
+        border: 2px solid #545250;
+        border-radius: 5px;
+        background: #222831;
+    }
+
+/* this is for search area  */
+
+    .search-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 105px;
+        padding: 3px;
+        background-color: #ffffff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+        width: 250px; /* Adjust width as needed */
+    }
+
+    .search-box #input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 7px 10px;
+        font-size: 15px;
+        /* font-weight: bold; */
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: transparent;
+
+        /* this is to resize placeholder */
+        position: relative;
+        top: 2px;
+    }
+
+
+
+
+
+    /* this is for send button */
+    .search .send {
+        background-color: #267dda;
+        color: rgb(255, 255, 255);
+        border: none;
+        padding: 14px 15px;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-left: 5px; /* Adjust space between input and button */
+    }
+
+
+}
