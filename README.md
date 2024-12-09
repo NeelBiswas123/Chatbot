@@ -7,7 +7,7 @@ Questions:- 1. Hi or Hello
             2. How are you
             3. what is your name
             4. what can you do
-            5. what is google or google
+            5. what is google or google or tell me about google
             6. chatgpt or tell me about chatgpt
             7. India or where is india
             8. tell me a joke
