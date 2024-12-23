@@ -63,7 +63,7 @@ input.addEventListener("keypress", function(event) {
       output = "ChatGPT is an AI that uses NLP to help Users to solve their problem ";
     }
     else if (input.includes("ai" || "are you ai" || " are you ai model")) {
-      output = "No, I am just a program , I can only answer some specific question , read the readme file for more ";
+      output = "No, I am just a program , I can only answer some specific question , read the readme file here https://github.com/NeelBiswas123/Chatbot ";
     }
      else if (input.includes("india" || "where is india")) {
       output = "India is a Country that is located in South Asia.";
